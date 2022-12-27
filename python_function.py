@@ -8,7 +8,6 @@ def print_food(*food,placeno,waiter):
         print(f)
     print('服务员是:'+waiter)
 
-
 #print_food('饺子','饮料','12','小王')
 #必须使用关键字参数方式调用方法,print函数就是可变参数
 print_food('饺子','饮料',placeno='12',waiter='小王')
