@@ -13,6 +13,10 @@ class Student(Person):
     #重写，多态
     def say(self):
         print(self.name+'大声的说话')
+    #静态方法
+    @staticmethod
+    def hello():
+        print('这是一个静态方法')
 
 
 student=Student('王小明','178','1000','解放录小学')
