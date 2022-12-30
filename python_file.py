@@ -1,9 +1,5 @@
 # email liuyibo906@163.com
 # 时间 2022/12/29 22:52
-
-
-
-
 # file=open('data.txt','r')
 # # print(file.readable())
 # # # print(file.writable())
