@@ -1,5 +1,6 @@
 # email liuyibo906@163.com
 # 时间 2023/1/2 10:51
+#可以多线程处理
 import socket
 import threading
 def deal(link,client):
