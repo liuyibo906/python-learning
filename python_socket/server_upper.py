@@ -7,17 +7,13 @@ def deal(link,client):
     while True:
         # 处理连接1024kb数据，进行解码
         data = link.recv(1024).decode()
-
         if data == 'exit':
             break
         print('接受到客户端：%s 发送的信息：%s' % (client, data))
-
         res = data.upper()
         # 发送回客户端
         link.sendall(res.encode())
-
     link.close()
-
 #服务的IP地址和端口号
 hostaddress=('127.0.0.1',8889)
 #默认使用IPV4,使用TCP协议
